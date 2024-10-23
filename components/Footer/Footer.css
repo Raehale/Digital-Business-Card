@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+
+    background-color: #161619;
+
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    margin-top: 3rem;
+}
+
+.footer__icon {
+    font-size: 2rem;
+    color: #918E9B;
+}
+
+.footer__icon:hover {
+    cursor: pointer;
+
+    opacity: 0.5;
+}

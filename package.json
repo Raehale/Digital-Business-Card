@@ -1,0 +1,18 @@
+{
+  "name": "Scrim-s0763pr4ac",
+  "description": "https://v2.scrimba.com/s0763pr4ac",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}

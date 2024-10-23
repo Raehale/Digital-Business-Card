@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter, sans-serif;
+
+    background-color: #23252C;
+}
+
+.business__card {
+    background-color: #1E1F26;
+    color: white;
+
+    max-width: 300px;
+
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/***HEADER***/
+/**INFO SECTION**/
+.info__section {
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.profile__photo {
+    max-width: 300px;
+    width: 100%;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.info__header {
+    font-size: 2.25rem;
+    font-weight: 600;
+
+    margin-bottom: 0;
+}
+
+.info__sub__title {
+    color: #F3BF99;
+    font-size: 0.75rem;
+    font-weight: 200;
+
+    margin-top: 0;
+}
+
+.info--link {
+    text-decoration: none;
+}
+
+.info__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+
+    font-weight: 500;
+    color: #1E1F26;
+
+    background-color: white;
+
+    width: 80%;
+
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.info__btn:hover {
+    background: #918E9B;
+
+    cursor: pointer;
+}
+
+/***MAIN***/
+.content__section {
+    font-weight: 100;
+
+    padding: 0 2rem;
+}
+
+.content__section__header {
+    font-weight: 600;
+
+    margin-bottom: 0;
+}
+
+.content__section__text {
+    font-size: 0.75rem;
+    line-height: 1.5;
+
+    margin-top: 0.5rem;
+}
+
+/***FOOTER***/
+footer {
+    text-align: center;
+
+    background-color: #161619;
+
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    margin-top: 3rem;
+}
+
+.footer__icon {
+    font-size: 2rem;
+    color: #918E9B;
+}
+
+.footer__icon:hover {
+    cursor: pointer;
+
+    opacity: 0.5;
+}
