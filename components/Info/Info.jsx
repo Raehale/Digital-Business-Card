@@ -1,6 +1,6 @@
 import React from "react";
 import "./Info.css";
-import profile from "../assets/rae-and-arlo-square.jpg"
+import profile from "/assets/rae-and-arlo-square.jpg"
 
 export default function Info() {
     return (
