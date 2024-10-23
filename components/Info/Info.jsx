@@ -1,9 +1,14 @@
-import React from "react"
+import React from "react";
+import "./Info.css";
+import profile from "../assets/rae-and-arlo-square.jpg"
 
 export default function Info() {
     return (
         <header className="info__section">
-            <img src="../assets/rae-and-arlo-square.jpg" className="profile__photo" alt="Rae looking at the camera smiling while sitting on a couch with a cat, Arlo, beside her." />
+            <img src={profile} 
+                className="profile__photo" 
+                alt="Rae looking at the camera smiling while sitting on a couch with a cat, Arlo, beside her." 
+            />
 
             <h1 className="info__header">Rae Haley</h1>
 
@@ -17,5 +22,5 @@ export default function Info() {
             </a>
 
         </header>
-    )
+    );
 }

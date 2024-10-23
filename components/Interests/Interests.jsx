@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import "./Interests.css";
 
 export default function Interests() {
     return (
@@ -7,5 +8,5 @@ export default function Interests() {
 
             <p className="content__section__text">I love animals and my pets most of all. Ask me about my pet rats! I am a lifelong learner always happy to learn from past mistakes.</p>
         </section>
-    )
+    );
 }
